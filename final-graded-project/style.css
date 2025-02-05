@@ -63,6 +63,8 @@ nav a:hover {
 main {
   margin-top: 4rem;
   margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-1 {
@@ -109,7 +111,6 @@ main {
 footer {
   background-color: #333333;
   margin: 0;
-  margin-top: 3rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   display: grid;
